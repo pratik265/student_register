@@ -1,7 +1,11 @@
-<?php $this->load->view('layouts/sidebar'); ?>
-<?php $this->load->view('layouts/topbar'); ?>
-
-<div style="margin-left:220px; padding-top:64px; min-height:100vh; background:#f7f9fb;">
+<?php
+// Fetch all subjects for mapping subject_id to subject_name
+$subject_map = array();
+$subjects_query = $this->db->get('subjects')->result();
+foreach ($subjects_query as $subj) {
+    $subject_map[$subj->id] = $subj->subject_name;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +88,17 @@
                             <td><?php echo html_escape($record->role); ?></td>
                             <td><?php echo html_escape($record->date); ?></td>
                             <td><?php echo html_escape($record->status); ?></td>
-                            <td><?php echo html_escape($record->lecture); ?></td>
+                            <td>
+                                <?php
+                                    if (isset($record->subject_id) && $record->subject_id && isset($subject_map[$record->subject_id])) {
+                                        echo html_escape($subject_map[$record->subject_id]);
+                                    } elseif (isset($record->lecture) && $record->lecture !== null && $record->lecture !== '' && $record->lecture !== 'undefined') {
+                                        echo html_escape($record->lecture);
+                                    } else {
+                                        echo '-';
+                                    }
+                                ?>
+                            </td>
                             <td class="actions">
                                 <button class="view" onclick="viewAttendance(<?php echo $record->id; ?>)"><i class="fa fa-eye"></i></button>
                                 <button class="edit" onclick="editAttendance(<?php echo $record->id; ?>)"><i class="fa fa-edit"></i></button>
@@ -275,7 +289,17 @@
                         <td>${record.role}</td>
                         <td>${record.date}</td>
                         <td>${record.status}</td>
-                        <td>${record.lecture}</td>
+                        <td>
+                            <?php
+                                if (isset($record->subject_id) && $record->subject_id && isset($subject_map[$record->subject_id])) {
+                                    echo html_escape($subject_map[$record->subject_id]);
+                                } elseif (isset($record->lecture) && $record->lecture !== null && $record->lecture !== '' && $record->lecture !== 'undefined') {
+                                    echo html_escape($record->lecture);
+                                } else {
+                                    echo '-';
+                                }
+                            ?>
+                        </td>
                         <td class="actions">
                             <button class="view" onclick="viewAttendance(${record.id})"><i class="fa fa-eye"></i></button>
                             <button class="edit" onclick="editAttendance(${record.id})"><i class="fa fa-edit"></i></button>
@@ -484,5 +508,4 @@
     });
     </script>
 </body>
-</html>
-</div> 
+</html> 
