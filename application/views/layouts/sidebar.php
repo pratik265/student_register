@@ -1,0 +1,19 @@
+<div class="sidebar" style="width: 220px; background: #2d3a60; min-height: 100vh; position: fixed; left: 0; top: 0; color: #fff; box-shadow: 2px 0 10px rgba(0,0,0,0.05);">
+    <div style="padding: 30px 0 20px 0; text-align: center; border-bottom: 1px solid #22305a;">
+        <span style="font-size: 1.7rem; font-weight: bold; letter-spacing: 2px; color: #fff;">WDC</span>
+    </div>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-tachometer-alt" style="width: 22px;"></i> <span style="margin-left: 15px;">Dashboard</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-user-check" style="width: 22px;"></i> <span style="margin-left: 15px;">Attendance</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-calendar-alt" style="width: 22px;"></i> <span style="margin-left: 15px;">Class Schedule</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-file-alt" style="width: 22px;"></i> <span style="margin-left: 15px;">Marksheets</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-tasks" style="width: 22px;"></i> <span style="margin-left: 15px;">Assignments</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-list-ol" style="width: 22px;"></i> <span style="margin-left: 15px;">Exams List</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-certificate" style="width: 22px;"></i> <span style="margin-left: 15px;">Certificates</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-money-check-alt" style="width: 22px;"></i> <span style="margin-left: 15px;">Payroll</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-chart-bar" style="width: 22px;"></i> <span style="margin-left: 15px;">Reports</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-envelope" style="width: 22px;"></i> <span style="margin-left: 15px;">SMS/Mail</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-calendar" style="width: 22px;"></i> <span style="margin-left: 15px;">Calendar</span></a></li>
+        <li style="margin: 20px 0;"><a href="#" style="color: #fff; text-decoration: none; display: flex; align-items: center; padding: 12px 30px;"><i class="fas fa-list" style="width: 22px;"></i> <span style="margin-left: 15px;">To Do List</span></a></li>
+    </ul>
+</div> 

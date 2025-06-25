@@ -1,0 +1,37 @@
+Here are the URLs for all the login pages in your system:
+
+Student Login URL
+http://localhost/student_register/auth/student_login
+Class: student table class (10)
+Section: A
+Roll Number: 11
+Password: 123456
+
+Teacher Login URL
+http://localhost/student_register/auth/teacher_login
+username :- teachers table email
+password :- teachers table password
+
+Admin Login URL
+http://localhost/student_register/auth/admin_login
+username :- admin
+password :- admin123
+
+
+General Login URL (Main Entry Point)
+http://localhost/student_register/auth/login
+
+
+Student Login Credentials Example:
+Class: 10
+Section: A
+Roll Number: 11
+Password: 123456
+
+Teacher Login Credentials:
+Username/Email: (teacher's email from database)
+Password: (teacher's password from database)
+
+Admin Login Credentials:
+Username: (admin username from database)
+Password: (admin password from database)

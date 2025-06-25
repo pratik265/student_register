@@ -1,0 +1,95 @@
+a maru folder se ema me already ci 3 nu setup karelu se mare student ni attandance student register student i lacture wise attandance student ni all attandance student kaya std ma se e badhu j
+
+admin panel jevu j ban se karan ke a project scholl handle karse joy student ny
+
+*Must be most attractive design background ma school ni image set karjo*
+
+1.  student register 
+2. register student list 
+3. register student  edit, view and delete 
+4. lacture wise single student attandance 
+5. lacture wise multiple student attandance 
+6. single student attandance in all lacture
+7. attandance list current month, current year and from to date filter
+8. public holiday list and leave report in current month and year 
+9. a site se e two language ma hase english and gujrati , and default english language ma rese, and gujrati nu option slect kar se atle full site am jetla pn text hase tenu gujrati ma translate thay jase
+10. teacher nu list pn rese tema kaya teacher kayo subject no abhyash karave se kaya kaya standerd ma karave se
+
+Admin Login / Panel
+
+Secure login system
+
+Dashboard with stats (e.g., total students, present today)
+
+Teacher Login / Panel
+
+Subject-wise access
+
+Take attendance of assigned classes
+
+Student Management
+
+Add / Edit / Delete student
+
+View student details
+
+Assign student to class/section
+
+Class & Section Management
+
+Create class (e.g., 1st, 2nd, etc.)
+
+Create sections (A, B, etc.)
+
+Attendance Module
+
+Select date, class & section
+
+Mark Present / Absent / Leave
+
+Save attendance with timestamp
+
+Prevent duplicate marking
+
+Attendance Reports
+
+Daily attendance report
+
+Monthly report (with %)
+
+Individual student attendance record
+
+Export to Excel / PDF
+
+Notifications (Optional)
+
+Send SMS/Email to parents if student is absent
+
+🛠 Extra Functionalities (Advanced System ma)
+Student/Parent Login
+
+View attendance history
+
+Notifications for low attendance
+
+Leave Application
+
+Students apply for leave
+
+Teachers/admin approve/reject
+
+Graphical Reports
+
+Charts showing attendance trends (e.g., by class, by month)
+
+Mobile Responsive Design / App
+
+Teachers can take attendance via mobile
+
+Optional PWA or Android app
+
+ana ate tamre je pn file create karvi pade databse me je pn ky create karvu pade te tame kari sako so 
+
+men lage se ke tamre su karvanu se eo idea tamne avi gyo hase
+
+so please do fast
