@@ -73,6 +73,7 @@ foreach ($subjects_query as $subj) {
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Name</th>
                     <th>Role</th>
                     <th>Date</th>
                     <th>Status</th>
